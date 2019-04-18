@@ -47,12 +47,17 @@ export default {
   border-bottom:1px solid #e6e6e6;
   height:44px;
   margin-bottom:10px;
+  width:100%;
+  
+
   .topbar-bg{
     display:flex;
     align-items:center;
     height:44px;
     justify-content:space-between;
     background:#FFF;
+    width:100%;
+
     .city-entry {
       padding-left:15px;
       font-size:15px;

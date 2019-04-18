@@ -3,7 +3,7 @@
     <header class="navbar">
       <h1 class="nav-header">影院</h1>
     </header>
-    <section class="topbar" style>
+    <section class="topbara" style>
       <div class="gray-bg topbar-bg">
         <div class="city-entry">
           <span class="city-name">上海</span>
@@ -131,7 +131,7 @@
     </div>
     <div class="cinema-list" data-cid="c_5ovvtlp2" style="margin-bottom: 55px; margin-top: 40px;">
       <div class="list-wrap" style="margin-top: 0px; min-height: 627px;">
-        <router-link to= "dianmian" tag="div"class="item mb-line-b" v-for="(item,index) in cinemasli" :key="index">
+        <router-link to= "dianmian" tag="dianmian"class="item mb-line-b" v-for="(item,index) in cinemasli" :key="index">
           <div class="title-block box-flex middle">
             <div class="title line-ellipsis">
               <span>{{item.nm}}</span>
@@ -254,7 +254,7 @@ export default {
     overflow: hidden;
   }
 }
-.topbar {
+.topbara {
   border-bottom: 1px solid #e6e6e6;
   height: 44px;
   position: fixed;
@@ -321,7 +321,7 @@ export default {
 }
 .nav-wrap {
   position: fixed;
-  top: 95px;
+  top: 91px;
   .tab {
     display: flex;
     .item {
