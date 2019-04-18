@@ -16,7 +16,15 @@
   <router-view></router-view>
 </div>
 </template>
-
+<script>
+export default {
+  mounted() {
+    window.addEventLlistener('scroll',function(){
+      console.log(1111)
+    })
+  },
+}
+</script>
 
 <style lang="less">
 @import '../../style/resets.css';
@@ -44,6 +52,7 @@
     align-items:center;
     height:44px;
     justify-content:space-between;
+    background:#FFF;
     .city-entry {
       padding-left:15px;
       font-size:15px;

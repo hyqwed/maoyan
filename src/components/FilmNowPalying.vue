@@ -57,8 +57,7 @@ export default {
           let data = res.data;
           
           this.most = data.coming;
-          console.log(this.most);
-          console.log(this.most[0].id);
+          
         }).catch(error =>{
           alert('n-hot出错了')
         })
@@ -73,7 +72,9 @@ export default {
 </script>
 <style lang="less">
 @import '../style/mixins.less';
-
+body{
+  background: #fff
+}
 .film-list-content {
   background-color: #fff;
   position:relative;
