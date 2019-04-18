@@ -1,9 +1,10 @@
 <template>
  <div>
-    <div id="header"><h1>猫眼电影</h1></div>
+    <div id="header"><h1><i class="iconfont icon-mjiantou-copy"></i>猫眼电影</h1></div>
  </div>
 </template>
 <style lang="less">
+ @import '../style/resets.css';
 #header {
     h1{
     display: block;
