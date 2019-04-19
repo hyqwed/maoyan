@@ -14,9 +14,9 @@
                 <div class="form-group">
                     <input placeholder="密码" class="input-control" type="password" v-model="password" />
                 </div>
-                <div class="submit login-btn" @click="handleLogin">
+                <router-link to="denru" tag="div"class="submit login-btn" >
                     <button>登录</button>
-                </div>
+                </router-link>
             </div>
         </div>
     </div>        

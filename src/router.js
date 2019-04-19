@@ -24,6 +24,7 @@ export default new VueRouter({
     { path: '/mak/:id', name:'mak',component:() =>import('./views/detail/child.vue')},
     {path :'/cit', name:'cit',component:() => import('./components/city.vue')},
     {path :'/shousuo',name:'shousuo',component:()=> import('./components/shousuo.vue')},
+    {path : '/denru',name : 'denru',component:() => import('./components/denru.vue')},
     {path: '*',redirect:'/home'}
     ]  
 })
