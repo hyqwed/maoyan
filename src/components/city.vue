@@ -130,6 +130,7 @@ export default {
       var el = document.getElementById(py);
       var box = document.getElementById('lv-indexlist__content');
       box.scrollTop = el.offsetTop;
+      
     }
   },
 
